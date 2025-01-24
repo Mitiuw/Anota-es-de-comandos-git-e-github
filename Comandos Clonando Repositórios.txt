@@ -8,7 +8,7 @@ Ler todo conteúdo do diretório: ls
 
 
 
-Open Gitbash
+Open Gitbash teste
 
 Criar pasta comando: mkdir repo-localmkdi
 Entrar na pasta pelo terminal: cd repo-local/

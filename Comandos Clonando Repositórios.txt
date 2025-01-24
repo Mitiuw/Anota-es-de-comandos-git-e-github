@@ -40,3 +40,9 @@ para ver os branches criados: git branch -v
 mesclar branches adicionais a branche main: git merge (nome da branch)
 excluir branch adicional: git branch -d teste
 upar alteraciones em repositorios existente linkado: git push origin main
+baixar conteudo da branch remota sem mesclar com a branch local: git merge origin/main
+saber diferença de arquivo local para arquivo upado: git diff main origin/main
+clonar uma branch diferente: gitclone (endereço url do GitHub) -- branch (nome da branch criada) --single-branch
+arquivar arquivos: git stash
+listar arquivos arquivados: git stash list
+

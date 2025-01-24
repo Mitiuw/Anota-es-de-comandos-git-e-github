@@ -37,3 +37,4 @@ criar uma branch e trocar para uma branch nova: git checkout -b (teste)
 para ver os branches criados: git branch -v
 mesclar branches adicionais a branche main: git merge (nome da branch)
 excluir branch adicional: git branch -d teste
+upar alteraciones em repositorios existente linkado: git push origin main

@@ -21,7 +21,7 @@ Clonar repositório do GitHub com novo nome: git clone (url do conteudo) repo-cl
 Verificar se a pasta ta vinculada: git remote -v
 Contecar rep local ao remoto: git remote add origin (url)
 Mostrar status commit e o estado dos arquivos: git status
-Criar arquivo leia-me: touch READMD.md
+Criar arquivo qualquer arquivo.md ou leia-me: touch READMD.md
 Criar um commit: git commit -m"commit inicial"
 Criar um arquivo .gitgnore: echo (nomedoarq)/ > .gitignore
 remover diretório git e todo conteudo: rm -rf .git
@@ -32,3 +32,8 @@ desfazer e alterar qualquer commit anterior utilizando a hash: git reset (opcion
 pra resetar o ultimo commit com hash: git restet --mixed
 para remover arquivo: git reset (nome do arquivo)
 histórico detalhado: git reflog
+pra baixar os arquivos atualizados do ghub: git pull
+criar uma branch e trocar para uma branch nova: git checkout -b (teste)
+para ver os branches criados: git branch -v
+mesclar branches adicionais a branche main: git merge (nome da branch)
+excluir branch adicional: git branch -d teste
